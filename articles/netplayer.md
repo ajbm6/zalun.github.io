@@ -1,13 +1,20 @@
 ---
+date: 04-20-2014
 title: NetPlayer based on RaspberryPi
+preface: For some time I was thinking about adding a network player to my audio setup.  I use a turntable for most of the time, but for some use cases it was no good.
+tags:
+  - raspberrypi
+  - hifiberry
+  - audio
+  - hardware
 ---
 
 # Network player based on RaspberryPi and Hifiberry
 
-![NetPlayer en face](img/on-shelf-face-1.png)
+![NetPlayer en face](../img/netplayer/on-shelf-face-1.png)
 
-For some time I was thinking about adding a network player to my audio setup.
-I use a turntable for most of the time, but for some usecases it was no good.
+For some time I was thinking about adding a network player to my audio setup.  
+I use a turntable for most of the time, but for some use cases it was no good.
 Playing background music for programming was no fun. We are also often listen
 to the radio and since I found out that Onkyo A-8860 has a way better sound than
 three times more expensive Denon AV 1710 I had no radio anymore. I was 
@@ -50,7 +57,7 @@ Device has four buttons. Stop / Radio / Music / Test
 If this logic works for you as well feel free to download the software from
 https://github.com/zalun/NetPlayer
 
-![buttons](img/buttons.png)
+![buttons](../img/netplayer/buttons.png)
 
 I made a choice to not switch off the device on a usual basis, I can always
 run ssh and ``halt`` it from the terminal.
@@ -82,7 +89,7 @@ current song or switch to the next one.
 
 ## Build
 
-![Prototype board](img/board.png)
+![Prototype board](../img/netplayer/board.png)
 
 Hearing that the standard impulse power source isn't good for sound I bought
 a good quality assembled DIY power source. I've placed it in a separate box as
@@ -92,13 +99,13 @@ copied to the Synology NAS. Boxes used aren't pretty yet, also the buttons are
 temporary. I want to design front panel with wooded buttons. There is also an 
 idea to add display (LED or OLED).
 
-![RCA](img/open-4-back.png)
+![RCA](../img/netplayer/open-4-back.png)
 
 First I've designed the device using a prototype board. After it worked well
 for a week or so, I've ordered the boxes.
 
-![Prototype board](img/prototype-board-1.png)
+![Prototype board](../img/netplayer/prototype-board-1.png)
 
 It does look well on the shelf even with the current design.
 
-![On shelf](img/on-shelf-face-2.png)
+![On shelf](../img/netplayer/on-shelf-face-2.png)
